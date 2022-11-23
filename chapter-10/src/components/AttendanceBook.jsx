@@ -1,6 +1,6 @@
 import React from "react";
 
-const students =[
+const students = [
     {
         id: 1, 
         name: "학생 1", 
