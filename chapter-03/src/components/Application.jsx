@@ -9,4 +9,5 @@ function Application()
         </div>
     );
 }
+
 export default Application
