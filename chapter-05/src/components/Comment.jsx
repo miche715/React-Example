@@ -33,7 +33,7 @@ const style = {
     }, 
 };
 
-function Comment(property)
+function Comment(props)
 {
     return (
         <div style={style.wrapper}>
@@ -45,8 +45,8 @@ function Comment(property)
             </div>
 
             <div style={style.contentContainer}>
-                <span style={style.nameText}>{property.name}</span>
-                <span style={style.commnetText}>{property.comment}</span>
+                <span style={style.nameText}>{props.name}</span>
+                <span style={style.commnetText}>{props.comment}</span>
             </div>
         </div>
     );

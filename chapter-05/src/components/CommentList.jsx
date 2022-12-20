@@ -24,11 +24,19 @@ const commnets = [
     }, 
 ];
 
-function CommentList()
+function CommentList(props)
 {
     return (
         <div>
-            {commnets.map((comment) => <Comment key={comment.id} name={comment.name} comment={comment.comment} />)}
+            {commnets.map((comment) => {
+                return (
+                    <Comment 
+                        key={comment.id} 
+                        name={comment.name} 
+                        comment={comment.comment} 
+                    />
+                );
+            })}
         </div>
     );
 }
