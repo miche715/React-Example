@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Clock from './components/Clock';
+import Application from './components/Application';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
     root.render(
         <React.StrictMode>
-            <Clock />
+            <Application />
         </React.StrictMode>
-    )
-}, 1000);
+    )}, 1000
+);

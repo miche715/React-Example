@@ -1,4 +1,4 @@
-const clock = function()
+const Clock = function()
 {
     return (
         <div>
@@ -8,4 +8,4 @@ const clock = function()
     );
 };
 
-export default clock;
+export default Clock;
